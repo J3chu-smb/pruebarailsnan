@@ -8,6 +8,8 @@
   require 'faker'
 
   Task.destroy_all
+  Todo.destroy_all
+  User.destroy_all
 
     9.times do |i|
     Task.create(
